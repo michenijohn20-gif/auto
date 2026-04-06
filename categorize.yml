@@ -2,7 +2,7 @@ name: Gmail Categorizer
 
 on:
   schedule:
-    - cron: '0 * * * *'  # runs every hour
+    - cron: '*/30 * * * *'  # runs every 30 minutes
   workflow_dispatch:       # allows manual run from GitHub
 
 jobs:
